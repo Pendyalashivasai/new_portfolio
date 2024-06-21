@@ -320,7 +320,11 @@ background: linear-gradient(180deg, #0c134f 39%, #103c78 86%); */
 }
 
 
-
+/* about section styling */
+.about .title::after {
+  content: "who I am";
+  background-color: #21286c;
+}
 
 .about .about-content .left {
   width: 45%;
@@ -449,6 +453,9 @@ border: 1px solid rgba(254, 254, 255, 0.73);
   content: "what I know";
   background-color: #21286c;
 }
+
+
+
 
 
 #skills{
