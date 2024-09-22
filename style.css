@@ -101,7 +101,7 @@ section .title::after {
   transition: all 0.3s ease;
 }
 
-.navbar a::after {
+/* .navbar a::after {
   content: '';
   position: absolute;
   left: 0;
@@ -117,7 +117,7 @@ section .title::after {
 .navbar a:hover::after{
   transform:translateY(0);
   opacity: 1;
-}
+} */
 
 .navbar.sticky {
   padding: 15px 0;
